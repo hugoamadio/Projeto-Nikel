@@ -76,11 +76,11 @@ header {
 
 /* IDs */
 #login {
-    background: linear-gradient(120deg, #4c79d3 44.9%, #ffff 45%) no-repeat fixed;
+    background: linear-gradient(120deg, #FF8400 44.9%, #ffff 45%) no-repeat fixed;
 }
 
 #app {
-    background: linear-gradient(120deg, #ffff 44.9%, #4c79d3 45%) no-repeat fixed;
+    background: linear-gradient(120deg, #ffff 44.9%, #FF8400 45%) no-repeat fixed;
 }
 
 /* Hover */

@@ -62,13 +62,8 @@
                                             <th scope="col">Descrição</th>
                                         </tr>
                                     </thead>
-                                    <tbody>
-                                        <tr>
-                                            <th scope="row">20/10/2023</th>
-                                            <td>R$100</td>
-                                            <td>Saída</td>
-                                            <td>Gasolina</td>
-                                        </tr>
+                                    <tbody id="transactions-list">
+                                        
                                     </tbody>
                                 </table>
                             </div>
@@ -112,11 +107,12 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary button-cancel" data-bs-dismiss="modal">Cancelar</button>
+                            <button type="submit" class="btn button-default">Adicionar</button>
+                        </div>
                     </form>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary button-cancel" data-bs-dismiss="modal">Cancelar</button>
-                        <button type="submit" class="btn button-default">Adicionar</button>
-                    </div>
+                   
                 </div>
             </div>
         </div>
