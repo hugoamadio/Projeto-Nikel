@@ -103,3 +103,7 @@ header {
     background-color: white;
     color: #4c79d3;
 }
+
+.logout {
+    min-width: 3rem !important;
+}

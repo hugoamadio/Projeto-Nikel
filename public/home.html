@@ -25,8 +25,8 @@
                         <button class="btn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="bi bi-person-circle fs-4"></i>
                         </button>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                            <li><a class="dropdown-item" href="#">Sair</a></li>
+                        <ul class="dropdown-menu logout" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" id="button-logout" href="index.html">Sair</a></li>
                         </ul>
                     </div>
                 </div>
@@ -101,15 +101,15 @@
                         <div class="modal-body">
                             <div class="mb-3">
                                 <label for="value-input" class="form-label">Valor</label>
-                                <input type="number" class="form-control" id="value-input" aria-describedby="emailHelp">
+                                <input type="number" class="form-control" id="value-input" aria-describedby="emailHelp" required>
                             </div>
                             <div class="mb-3">
                                 <label for="description-input" class="form-label">Descrição</label>
-                                <input type="text" class="form-control" id="description-input">
+                                <input type="text" class="form-control" id="description-input" required>
                             </div>
                             <div class="mb-3">
                                 <label for="date-input" class="form-label">Data</label>
-                                <input type="date" class="form-control" id="date-input">
+                                <input type="date" class="form-control" id="date-input" required>
                             </div>
                             <div class="mb-3">
                                 <div class="form-check form-check-inline">
