@@ -19,10 +19,13 @@ document.getElementById("transaction-button").addEventListener("click", function
 document.getElementById("transaction-form").addEventListener('submit', function(e) {
     e.preventDefault();
 
+    
+
     const value = parseFloat(document.getElementById('value-input').value);
     const description = document.getElementById('description-input').value;
     const date = document.getElementById('date-input').value;
     const type = document.querySelector('input[name="type-input"]:checked').value;
+
 
     data.transactions.unshift({
         value: value, type: type, description: description, date: date
@@ -33,9 +36,10 @@ document.getElementById("transaction-form").addEventListener('submit', function(
     myModal.hide();
     getCashIn();
     getCashOut();
-    getTotal();
-    
-
+    let comparaTotal = getTotal();
+    if(type === "2" && value > comparaTotal){
+        alert("Atenção. Seu saldo após cadastar essa despesa será negativo, deseja continuar?");
+    }
 });
 
 function checkLogged() {
@@ -161,11 +165,9 @@ function getTotal(){
     })
     
     document.getElementById("total").innerHTML = `R$ ${total.toFixed(2)}`;
-    
+    return total;
 }
 
 function saveData(data) {
     localStorage.setItem(data.login, JSON.stringify(data));
 } 
-
-
