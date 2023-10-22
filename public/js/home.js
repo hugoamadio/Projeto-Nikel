@@ -26,7 +26,6 @@ document.getElementById("transaction-form").addEventListener('submit', function(
     const date = document.getElementById('date-input').value;
     const type = document.querySelector('input[name="type-input"]:checked').value;
 
-
     data.transactions.unshift({
         value: value, type: type, description: description, date: date
     });

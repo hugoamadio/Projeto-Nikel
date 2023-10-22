@@ -37,7 +37,11 @@ document.getElementById("create-form").addEventListener("submit", function(e) {
 
     const email = document.getElementById("email-create-input").value;
     const password = document.getElementById("password-create-input").value;
-
+    const password2 = document.getElementById("confirmaSenha").value;
+    if(password !== password2){
+        alert("As senhas não são iguais");
+        return;
+    }
     if(email.length < 5) {
         alert("Preencha o campo com um e-mail válido");
         return;
