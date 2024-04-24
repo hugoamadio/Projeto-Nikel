@@ -1,7 +1,10 @@
 #Projeto Nikel
 
 O Projeto Nikel foi desenvolvido durante o curso na GroWDeV, apresentando-se como um CRUD de transações com uma interface amigável e funcionalidade de cadastro de usuários. Para a construção deste projeto, foram empregadas tecnologias como HTML, CSS e Bootstrap.
-O objetivo primordial consistiu na aplicação de tags semânticas para aprimorar a compreensão do código. Além disso, foram adotadas estratégias como o uso cuidadoso do LocalStorage e SessionStorage para proporcionar uma experiência personalizada aos usuários. A atenção especial foi dada à responsividade em diversos dispositivos e à manipulação eficiente do DOM.
+O objetivo primordial consistiu na aplicação de tags semânticas para aprimorar a compreensão do código. Além disso, foram adotadas estratégias como o uso cuidadoso do LocalStorage e SessionStorage para proporcionar uma experiência personalizada aos usuários. A atenção especial foi dada à responsividade em diversos dispositivos e à manipulação eficiente do DOM.<br>
+
+* Acesse a aplicação:
+  https://projeto-nikel-psi.vercel.app/
 
 A seguir, algumas imagens exemplificando o projeto.
 
